@@ -1,55 +1,23 @@
 <?php
-
 /**
- * CodeIgniter
+ * System messages translation for CodeIgniter(tm)
  *
- * An open source application development framework for PHP
- *
- * This content is released under the MIT License (MIT)
- *
- * Copyright (c) 2014 - 2015, British Columbia Institute of Technology
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package	CodeIgniter
- * @author	EllisLab Dev Team
- * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
+ * @author	CodeIgniter community
  * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
- * @license	http://opensource.org/licenses/MIT MIT License
+ * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	http://codeigniter.com
- * @since	Version 1.0.0
- * @filesource
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['ftp_no_connection'] = 'ÎÞ·¨ÕÒµ½Ò»¸öÓÐÐ§µÄÁ¬½Ó ID¡£ÔÚÖ´ÐÐÈÎºÎÎÄ¼þÀý³ÌÊ±ÇëÈ·±£ÒÑ¾­Á¬½Ó³É¹¦¡£';
-$lang['ftp_unable_to_connect'] = 'ÎÞ·¨Ê¹ÓÃÌá¹©µÄÖ÷»úÃûÁ¬½Óµ½ FTP ·þÎñÆ÷¡£';
-$lang['ftp_unable_to_login'] = 'ÎÞ·¨µÇÂ¼µ½ FTP ·þÎñÆ÷£¬Çë¼ì²éÓÃ»§Ãû¼°ÃÜÂëÊÇ·ñÕýÈ·¡£';
-$lang['ftp_unable_to_mkdir'] = 'ÎÞ·¨´´½¨Ö¸¶¨µÄÄ¿Â¼¡£';
-$lang['ftp_unable_to_changedir'] = 'ÎÞ·¨¸Ä±äÄ¿Â¼¡£';
-$lang['ftp_unable_to_chmod'] = 'ÎÞ·¨ÉèÖÃÎÄ¼þÈ¨ÏÞ£¬¼ì²éÎÄ¼þÂ·¾¶»òÓÃ»§È¨ÏÞ¡£';
-$lang['ftp_unable_to_upload'] = 'ÎÞ·¨ÉÏ´«Ö¸¶¨µÄÎÄ¼þ£¬¼ì²éÉÏ´«Â·¾¶»òÓÃ»§È¨ÏÞ¡£';
-$lang['ftp_unable_to_download'] = 'ÎÞ·¨ÏÂÔØÖ¸¶¨µÄÎÄ¼þ£¬¼ì²éÏÂÔØÂ·¾¶»òÓÃ»§È¨ÏÞ¡£';
-$lang['ftp_no_source_file'] = 'ÎÞ·¨ÕÒµ½Ö¸¶¨µÄÔ´ÎÄ¼þ£¬¼ì²éÎÄ¼þÂ·¾¶»òÓÃ»§È¨ÏÞ¡£';
-$lang['ftp_unable_to_rename'] = 'ÎÞ·¨ÖØÃüÃûÎÄ¼þ¡£';
-$lang['ftp_unable_to_delete'] = 'ÎÞ·¨É¾³ýÎÄ¼þ¡£';
-$lang['ftp_unable_to_move'] = 'ÎÞ·¨ÒÆ¶¯ÎÄ¼þ£¬¼ì²éÄ¿µÄÄ¿Â¼ÊÇ·ñ´æÔÚ¡£';
-
-/* End of file ftp_lang.php */
-/* Location: ./application/language/simplified-chinese/ftp_lang.php */
+$lang['ftp_no_connection'] = 'æ— æ³•æ‰¾åˆ°ä¸€ä¸ªæœ‰æ•ˆçš„è¿žæŽ¥ IDã€‚åœ¨æ‰§è¡Œä»»ä½•æ–‡ä»¶ä¾‹ç¨‹æ—¶è¯·ç¡®ä¿å·²ç»è¿žæŽ¥æˆåŠŸã€‚';
+$lang['ftp_unable_to_connect'] = 'æ— æ³•ä½¿ç”¨æä¾›çš„ä¸»æœºåè¿žæŽ¥åˆ° FTP æœåŠ¡å™¨ã€‚';
+$lang['ftp_unable_to_login'] = 'æ— æ³•ç™»å½•åˆ° FTP æœåŠ¡å™¨ï¼Œè¯·æ£€æŸ¥ç”¨æˆ·ååŠå¯†ç æ˜¯å¦æ­£ç¡®ã€‚';
+$lang['ftp_unable_to_mkdir'] = 'æ— æ³•åˆ›å»ºæŒ‡å®šçš„ç›®å½•ã€‚';
+$lang['ftp_unable_to_changedir'] = 'æ— æ³•æ”¹å˜ç›®å½•ã€‚';
+$lang['ftp_unable_to_chmod'] = 'æ— æ³•è®¾ç½®æ–‡ä»¶æƒé™ï¼Œæ£€æŸ¥æ–‡ä»¶è·¯å¾„æˆ–ç”¨æˆ·æƒé™ã€‚';
+$lang['ftp_unable_to_upload'] = 'æ— æ³•ä¸Šä¼ æŒ‡å®šçš„æ–‡ä»¶ï¼Œæ£€æŸ¥ä¸Šä¼ è·¯å¾„æˆ–ç”¨æˆ·æƒé™ã€‚';
+$lang['ftp_unable_to_download'] = 'æ— æ³•ä¸‹è½½æŒ‡å®šçš„æ–‡ä»¶ï¼Œæ£€æŸ¥ä¸‹è½½è·¯å¾„æˆ–ç”¨æˆ·æƒé™ã€‚';
+$lang['ftp_no_source_file'] = 'æ— æ³•æ‰¾åˆ°æŒ‡å®šçš„æºæ–‡ä»¶ï¼Œæ£€æŸ¥æ–‡ä»¶è·¯å¾„æˆ–ç”¨æˆ·æƒé™ã€‚';
+$lang['ftp_unable_to_rename'] = 'æ— æ³•é‡å‘½åæ–‡ä»¶ã€‚';
+$lang['ftp_unable_to_delete'] = 'æ— æ³•åˆ é™¤æ–‡ä»¶ã€‚';
+$lang['ftp_unable_to_move'] = 'æ— æ³•ç§»åŠ¨æ–‡ä»¶ï¼Œæ£€æŸ¥ç›®çš„ç›®å½•æ˜¯å¦å­˜åœ¨ã€‚';

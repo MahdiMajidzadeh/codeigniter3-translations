@@ -1,70 +1,40 @@
 <?php
-
 /**
- * CodeIgniter
+ * System messages translation for CodeIgniter(tm)
  *
- * An open source application development framework for PHP
- *
- * This content is released under the MIT License (MIT)
- *
- * Copyright (c) 2014 - 2015, British Columbia Institute of Technology
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package	CodeIgniter
- * @author	EllisLab Dev Team
- * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
+ * @author	CodeIgniter community
  * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
- * @license	http://opensource.org/licenses/MIT MIT License
+ * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	http://codeigniter.com
- * @since	Version 1.0.0
- * @filesource
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['form_validation_required'] = 'ÒªÇóº¬ÓÐ {field} ×Ö¶Î¡£';
-$lang['form_validation_isset'] = '{field} ×Ö¶Î±ØÐëÓÐÖµ¡£';
-$lang['form_validation_valid_email'] = '{field} ×Ö¶Î±ØÐëÊÇÒ»¸öÓÐÐ§µÄ E-mail µØÖ·¡£';
-$lang['form_validation_valid_emails'] = '{field} ×Ö¶Î°üº¬µÄ E-mail µØÖ·±ØÐëÈ«²¿ÓÐÐ§¡£';
-$lang['form_validation_valid_url'] = '{field} ×Ö¶Î±ØÐëÊÇÒ»¸öÓÐÐ§µÄ URL¡£';
-$lang['form_validation_valid_ip'] = '{field} ×Ö¶Î±ØÐë°üº¬Ò»¸öÓÐÐ§µÄ IP µØÖ·¡£';
-$lang['form_validation_min_length'] = '{field} ×Ö¶Î×îÉÙÐèÒªÓÐ {param} ×ÖµÄ³¤¶È¡£';
-$lang['form_validation_max_length'] = '{field} ×Ö¶Î²»ÄÜ³¬¹ý {param} ×ÖµÄ³¤¶È¡£';
-$lang['form_validation_exact_length'] = '{field} ×Ö¶Î±ØÐëÊÇ {param} ×ÖµÄ³¤¶È¡£';
-$lang['form_validation_alpha'] = '{field} ×Ö¶ÎÈ¡ÖµÖ»ÔÊÐíÎª×ÖÄ¸¡£';
-$lang['form_validation_alpha_numeric'] = '{field} ×Ö¶ÎÈ¡ÖµÖ»ÔÊÐíÎª×ÖÄ¸ºÍÊý×Ö¡£';
-$lang['form_validation_alpha_numeric_spaces'] = '{field} ×Ö¶ÎÈ¡ÖµÖ»ÔÊÐíÎª×ÖÄ¸¡¢Êý×ÖºÍ¿Õ¸ñ¡£';
-$lang['form_validation_alpha_dash'] = '{field} ×Ö¶ÎÈ¡ÖµÖ»ÔÊÐíÎª×ÖÄ¸¡¢Êý×Ö¡¢ÏÂ»®ÏßºÍÆÆÕÛºÅ';
-$lang['form_validation_numeric'] = '{field} ×Ö¶ÎÈ¡ÖµÖ»ÔÊÐíÎªÊý×Ö¡£';
-$lang['form_validation_is_numeric'] = '{field} ×Ö¶Î±ØÐëÖ»°üº¬Êý×Ö¡£';
-$lang['form_validation_integer'] = '{field} ×Ö¶Î±ØÐëÊÇÕûÊý¡£';
-$lang['form_validation_regex_match'] = '{field} ×Ö¶ÎÊÇ´íÎóµÄ¸ñÊ½¡£';
-$lang['form_validation_matches'] = '{field} ×Ö¶ÎÓë {param} ×Ö¶Î²»Æ¥Åä¡£';
-$lang['form_validation_differs'] = '{field} ×Ö¶ÎÓë {param} ×Ö¶Î±ØÐë²»Í¬¡£';
-$lang['form_validation_is_unique'] = '{field} ×Ö¶Î±ØÐëÊÇÒ»¸ö¶ÀÒ»ÎÞ¶þµÄÖµ¡£';
-$lang['form_validation_is_natural'] = '{field} ×Ö¶Î±ØÐëÊÇ×ÔÈ»Êý¡£';
-$lang['form_validation_is_natural_no_zero'] = '{field} ×Ö¶Î±ØÐëÊÇ·Ç 0 µÄ×ÔÈ»Êý¡£';
-$lang['form_validation_decimal'] = '{field} ×Ö¶Î±ØÐëÊÇÊ®½øÖÆÊý¡£';
-$lang['form_validation_less_than'] = '{field} ×Ö¶ÎµÄÖµ±ØÐëÐ¡ÓÚ {param}¡£';
-$lang['form_validation_less_than_equal_to'] = '{field} ×Ö¶ÎµÄÖµ±ØÐëÐ¡ÓÚµÈÓÚ {param}¡£';
-$lang['form_validation_greater_than'] = '{field} ×Ö¶ÎµÄÖµ±ØÐë´óÓÚ {param}¡£';
-$lang['form_validation_greater_than_equal_to'] = '{field} ×Ö¶ÎµÄÖµ±ØÐë´óÓÚµÈÓÚ {param}¡£';
-
-/* End of file form_validation_lang.php */
-/* Location: ./application/language/simplified-chinese/form_validation_lang.php */
+$lang['form_validation_required'] = 'è¦æ±‚å«æœ‰ {field} å­—æ®µã€‚';
+$lang['form_validation_isset'] = '{field} å­—æ®µå¿…é¡»æœ‰å€¼ã€‚';
+$lang['form_validation_valid_email'] = '{field} å­—æ®µå¿…é¡»æ˜¯ä¸€ä¸ªæœ‰æ•ˆçš„ E-mail åœ°å€ã€‚';
+$lang['form_validation_valid_emails'] = '{field} å­—æ®µåŒ…å«çš„ E-mail åœ°å€å¿…é¡»å…¨éƒ¨æœ‰æ•ˆã€‚';
+$lang['form_validation_valid_url'] = '{field} å­—æ®µå¿…é¡»æ˜¯ä¸€ä¸ªæœ‰æ•ˆçš„ URLã€‚';
+$lang['form_validation_valid_ip'] = '{field} å­—æ®µå¿…é¡»åŒ…å«ä¸€ä¸ªæœ‰æ•ˆçš„ IP åœ°å€ã€‚';
+$lang['form_validation_min_length'] = '{field} å­—æ®µæœ€å°‘éœ€è¦æœ‰ {param} å­—çš„é•¿åº¦ã€‚';
+$lang['form_validation_max_length'] = '{field} å­—æ®µä¸èƒ½è¶…è¿‡ {param} å­—çš„é•¿åº¦ã€‚';
+$lang['form_validation_exact_length'] = '{field} å­—æ®µå¿…é¡»æ˜¯ {param} å­—çš„é•¿åº¦ã€‚';
+$lang['form_validation_alpha'] = '{field} å­—æ®µå–å€¼åªå…è®¸ä¸ºå­—æ¯ã€‚';
+$lang['form_validation_alpha_numeric'] = '{field} å­—æ®µå–å€¼åªå…è®¸ä¸ºå­—æ¯å’Œæ•°å­—ã€‚';
+$lang['form_validation_alpha_numeric_spaces'] = '{field} å­—æ®µå–å€¼åªå…è®¸ä¸ºå­—æ¯ã€æ•°å­—å’Œç©ºæ ¼ã€‚';
+$lang['form_validation_alpha_dash'] = '{field} å­—æ®µå–å€¼åªå…è®¸ä¸ºå­—æ¯ã€æ•°å­—ã€ä¸‹åˆ’çº¿å’Œç ´æŠ˜å·';
+$lang['form_validation_numeric'] = '{field} å­—æ®µå–å€¼åªå…è®¸ä¸ºæ•°å­—ã€‚';
+$lang['form_validation_is_numeric'] = '{field} å­—æ®µå¿…é¡»åªåŒ…å«æ•°å­—ã€‚';
+$lang['form_validation_integer'] = '{field} å­—æ®µå¿…é¡»æ˜¯æ•´æ•°ã€‚';
+$lang['form_validation_regex_match'] = '{field} å­—æ®µæ˜¯é”™è¯¯çš„æ ¼å¼ã€‚';
+$lang['form_validation_matches'] = '{field} å­—æ®µä¸Ž {param} å­—æ®µä¸åŒ¹é…ã€‚';
+$lang['form_validation_differs'] = '{field} å­—æ®µä¸Ž {param} å­—æ®µå¿…é¡»ä¸åŒã€‚';
+$lang['form_validation_is_unique'] = '{field} å­—æ®µå¿…é¡»æ˜¯ä¸€ä¸ªç‹¬ä¸€æ— äºŒçš„å€¼ã€‚';
+$lang['form_validation_is_natural'] = '{field} å­—æ®µå¿…é¡»æ˜¯è‡ªç„¶æ•°ã€‚';
+$lang['form_validation_is_natural_no_zero'] = '{field} å­—æ®µå¿…é¡»æ˜¯éž 0 çš„è‡ªç„¶æ•°ã€‚';
+$lang['form_validation_decimal'] = '{field} å­—æ®µå¿…é¡»æ˜¯åè¿›åˆ¶æ•°ã€‚';
+$lang['form_validation_less_than'] = '{field} å­—æ®µçš„å€¼å¿…é¡»å°äºŽ {param}ã€‚';
+$lang['form_validation_less_than_equal_to'] = '{field} å­—æ®µçš„å€¼å¿…é¡»å°äºŽç­‰äºŽ {param}ã€‚';
+$lang['form_validation_greater_than'] = '{field} å­—æ®µçš„å€¼å¿…é¡»å¤§äºŽ {param}ã€‚';
+$lang['form_validation_greater_than_equal_to'] = '{field} å­—æ®µçš„å€¼å¿…é¡»å¤§äºŽç­‰äºŽ {param}ã€‚';
+$lang['form_validation_error_message_not_set'] = 'æ— æ³•èŽ·å¾— {field} å­—æ®µçš„é”™è¯¯ä¿¡æ¯ã€‚';
+$lang['form_validation_in_list'] = '{field} å­—æ®µå¿…é¡»æ˜¯ {param} ä¸­çš„ä¸€ç§ã€‚'; 

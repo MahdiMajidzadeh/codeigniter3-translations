@@ -1,64 +1,32 @@
 <?php
-
 /**
- * CodeIgniter
+ * System messages translation for CodeIgniter(tm)
  *
- * An open source application development framework for PHP
- *
- * This content is released under the MIT License (MIT)
- *
- * Copyright (c) 2014 - 2015, British Columbia Institute of Technology
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package	CodeIgniter
- * @author	EllisLab Dev Team
- * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
+ * @author	CodeIgniter community
  * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
- * @license	http://opensource.org/licenses/MIT MIT License
+ * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	http://codeigniter.com
- * @since	Version 1.0.0
- * @filesource
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['profiler_database'] = 'Êý¾Ý¿â';
-$lang['profiler_controller_info'] = 'Àà / ·½·¨';
-$lang['profiler_benchmarks'] = '»ù×¼';
-$lang['profiler_queries'] = '²éÑ¯';
-$lang['profiler_get_data'] = 'GET Êý¾Ý';
-$lang['profiler_post_data'] = 'POST Êý¾Ý';
-$lang['profiler_uri_string'] = 'URI ×Ö·û´®';
-$lang['profiler_memory_usage'] = 'ÄÚ´æÊ¹ÓÃ';
-$lang['profiler_config'] = 'ÉèÖÃÖµ';
-$lang['profiler_session_data'] = 'SESSION Êý¾Ý';
-$lang['profiler_headers'] = 'HTTP Í·';
-$lang['profiler_no_db'] = 'µ±Ç°Ã»ÓÐÒÑ¾­ÔØÈëµÄÊý¾Ý¿âÇý¶¯¡£  ';
-$lang['profiler_no_queries'] = 'ÔËÐÐ£¬ÎÞ²éÑ¯¡£  ';
-$lang['profiler_no_post'] = 'POST Êý¾Ý²»´æÔÚ¡£';
-$lang['profiler_no_get'] = 'GET Êý¾Ý²»´æÔÚ¡£';
-$lang['profiler_no_uri'] = 'URI Êý¾Ý²»´æÔÚ¡£';
-$lang['profiler_no_memory'] = 'ÎÞ·¨»ñµÃÄÚ´æÊ¹ÓÃÊý¾Ý¡£';
-$lang['profiler_no_profiles'] = 'Ã»ÓÐ Profile Êý¾Ý - È«²¿µÄ Profiler ¶¼ÒÑ±»¹Ø±Õ¡£';
-$lang['profiler_section_hide'] = 'Òþ²Ø';
-$lang['profiler_section_show'] = 'ÏÔÊ¾';
-$lang['profiler_seconds'] = 'Ãë';
-
-/* End of file profiler_lang.php */
-/* Location: ./application/language/simplified-chinese/profiler_lang.php */
+$lang['profiler_database'] = 'æ•°æ®åº“';
+$lang['profiler_controller_info'] = 'ç±» / æ–¹æ³•';
+$lang['profiler_benchmarks'] = 'åŸºå‡†';
+$lang['profiler_queries'] = 'æŸ¥è¯¢';
+$lang['profiler_get_data'] = 'GET æ•°æ®';
+$lang['profiler_post_data'] = 'POST æ•°æ®';
+$lang['profiler_uri_string'] = 'URI å­—ç¬¦ä¸²';
+$lang['profiler_memory_usage'] = 'å†…å­˜ä½¿ç”¨';
+$lang['profiler_config'] = 'è®¾ç½®å€¼';
+$lang['profiler_session_data'] = 'SESSION æ•°æ®';
+$lang['profiler_headers'] = 'HTTP å¤´';
+$lang['profiler_no_db'] = 'å½“å‰æ²¡æœ‰å·²ç»è½½å…¥çš„æ•°æ®åº“é©±åŠ¨ã€‚  ';
+$lang['profiler_no_queries'] = 'è¿è¡Œï¼Œæ— æŸ¥è¯¢ã€‚  ';
+$lang['profiler_no_post'] = 'POST æ•°æ®ä¸å­˜åœ¨ã€‚';
+$lang['profiler_no_get'] = 'GET æ•°æ®ä¸å­˜åœ¨ã€‚';
+$lang['profiler_no_uri'] = 'URI æ•°æ®ä¸å­˜åœ¨ã€‚';
+$lang['profiler_no_memory'] = 'æ— æ³•èŽ·å¾—å†…å­˜ä½¿ç”¨æ•°æ®ã€‚';
+$lang['profiler_no_profiles'] = 'æ²¡æœ‰ Profile æ•°æ® - å…¨éƒ¨çš„ Profiler éƒ½å·²è¢«å…³é—­ã€‚';
+$lang['profiler_section_hide'] = 'éšè—';
+$lang['profiler_section_show'] = 'æ˜¾ç¤º';
+$lang['profiler_seconds'] = 'ç§’';

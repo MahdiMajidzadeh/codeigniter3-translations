@@ -1,59 +1,27 @@
 <?php
-
 /**
- * CodeIgniter
+ * System messages translation for CodeIgniter(tm)
  *
- * An open source application development framework for PHP
- *
- * This content is released under the MIT License (MIT)
- *
- * Copyright (c) 2014 - 2015, British Columbia Institute of Technology
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package	CodeIgniter
- * @author	EllisLab Dev Team
- * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
+ * @author	CodeIgniter community
  * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
- * @license	http://opensource.org/licenses/MIT MIT License
+ * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	http://codeigniter.com
- * @since	Version 1.0.0
- * @filesource
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['upload_userfile_not_set'] = 'ÎÞ·¨ÕÒµ½ÓÃ»§ÎÄ¼þ¡£  ';
-$lang['upload_file_exceeds_limit'] = 'ÉÏ´«ÎÄ¼þµÄ´óÐ¡³¬¹ý PHP ÉèÖÃÖÐÖ¸¶¨µÄ×î´ó´óÐ¡¡£';
-$lang['upload_file_exceeds_form_limit'] = 'ÉÏ´«ÎÄ¼þµÄ´óÐ¡³¬¹ý±íµ¥ÖÐÖ¸¶¨µÄ×î´ó´óÐ¡¡£';
-$lang['upload_file_partial'] = 'ÎÄ¼þ½öÉÏ´«ÁËÒ»²¿·Ö¡£  .';
-$lang['upload_no_temp_directory'] = 'ÎÞ·¨ÕÒµ½ÁÙÊ±ÎÄ¼þ¼Ð¡£  .';
-$lang['upload_unable_to_write_file'] = 'ÎÞ·¨Ð´ÈëÎÄ¼þ¡£ Yeesssssss.';
-$lang['upload_stopped_by_extension'] = 'ÎÄ¼þÉÏ´«±»À©Õ¹Í£Ö¹¡£  ';
-$lang['upload_no_file_selected'] = 'Ã»ÓÐÑ¡ÔñÒªÉÏ´«µÄÎÄ¼þ¡£  ';
-$lang['upload_invalid_filetype'] = '½ûÖ¹ÉÏ´«µÄÎÄ¼þÀàÐÍ.  ';
-$lang['upload_invalid_filesize'] = 'ÎÄ¼þ´óÐ¡³¬¹ýÏÞÖÆ¡£';
-$lang['upload_invalid_dimensions'] = '²»ÔÊÐíµÄÍ¼Ïñ³ß´ç¡£';
-$lang['upload_destination_error'] = 'ÒÆ¶¯ÉÏ´«µÄÎÄ¼þÖÁ×îÖÕ±£´æÂ·¾¶Ê±·¢Éú´íÎó¡£  ';
-$lang['upload_no_filepath'] = 'ÉÏ´«Â·¾¶ÎÞÐ§¡£';
-$lang['upload_no_file_types'] = 'Ö¸¶¨ÔÊÐíµÄÎÄ¼þÀàÐÍ¡£';
-$lang['upload_bad_filename'] = 'Ìá½»µÄÎÄ¼þÃûÒÑ¾­´æÔÚ¡£';
-$lang['upload_not_writable'] = 'ÉÏ´«µÄÄ¿µÄÂ·¾¶²»¿ÉÐ´¡£';
-
-/* End of file upload_lang.php */
-/* Location: ./application/language/simplified-chinese/upload_lang.php */
+$lang['upload_userfile_not_set'] = 'æ— æ³•æ‰¾åˆ°ç”¨æˆ·æ–‡ä»¶ã€‚  ';
+$lang['upload_file_exceeds_limit'] = 'ä¸Šä¼ æ–‡ä»¶çš„å¤§å°è¶…è¿‡ PHP è®¾ç½®ä¸­æŒ‡å®šçš„æœ€å¤§å¤§å°ã€‚';
+$lang['upload_file_exceeds_form_limit'] = 'ä¸Šä¼ æ–‡ä»¶çš„å¤§å°è¶…è¿‡è¡¨å•ä¸­æŒ‡å®šçš„æœ€å¤§å¤§å°ã€‚';
+$lang['upload_file_partial'] = 'æ–‡ä»¶ä»…ä¸Šä¼ äº†ä¸€éƒ¨åˆ†ã€‚  .';
+$lang['upload_no_temp_directory'] = 'æ— æ³•æ‰¾åˆ°ä¸´æ—¶æ–‡ä»¶å¤¹ã€‚  .';
+$lang['upload_unable_to_write_file'] = 'æ— æ³•å†™å…¥æ–‡ä»¶ã€‚.';
+$lang['upload_stopped_by_extension'] = 'æ–‡ä»¶ä¸Šä¼ è¢«æ‰©å±•åœæ­¢ã€‚  ';
+$lang['upload_no_file_selected'] = 'æ²¡æœ‰é€‰æ‹©è¦ä¸Šä¼ çš„æ–‡ä»¶ã€‚  ';
+$lang['upload_invalid_filetype'] = 'ç¦æ­¢ä¸Šä¼ çš„æ–‡ä»¶ç±»åž‹.  ';
+$lang['upload_invalid_filesize'] = 'æ–‡ä»¶å¤§å°è¶…è¿‡é™åˆ¶ã€‚';
+$lang['upload_invalid_dimensions'] = 'ä¸å…è®¸çš„å›¾åƒå°ºå¯¸ã€‚';
+$lang['upload_destination_error'] = 'ç§»åŠ¨ä¸Šä¼ çš„æ–‡ä»¶è‡³æœ€ç»ˆä¿å­˜è·¯å¾„æ—¶å‘ç”Ÿé”™è¯¯ã€‚  ';
+$lang['upload_no_filepath'] = 'ä¸Šä¼ è·¯å¾„æ— æ•ˆã€‚';
+$lang['upload_no_file_types'] = 'æŒ‡å®šå…è®¸çš„æ–‡ä»¶ç±»åž‹ã€‚';
+$lang['upload_bad_filename'] = 'æäº¤çš„æ–‡ä»¶åå·²ç»å­˜åœ¨ã€‚';
+$lang['upload_not_writable'] = 'ä¸Šä¼ çš„ç›®çš„è·¯å¾„ä¸å¯å†™ã€‚';

@@ -1,52 +1,23 @@
 <?php
-
 /**
- * CodeIgniter
+ * System messages translation for CodeIgniter(tm)
  *
- * An open source application development framework for PHP
- *
- * This content is released under the MIT License (MIT)
- *
- * Copyright (c) 2014 - 2015, British Columbia Institute of Technology
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package	CodeIgniter
- * @author	EllisLab Dev Team
- * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
+ * @author	CodeIgniter community
  * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
- * @license	http://opensource.org/licenses/MIT MIT License
+ * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	http://codeigniter.com
- * @since	Version 1.0.0
- * @filesource
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['ut_test_name'] = '²âÊÔÃû';
-$lang['ut_test_datatype'] = '²âÊÔµÄÊý¾ÝÀàÐÍ';
-$lang['ut_res_datatype'] = 'ÆÚÍûµÄÊý¾ÝÀàÐÍ';
-$lang['ut_result'] = '½á¹û';
-$lang['ut_undefined'] = 'Î´¶¨ÒåµÄ²âÊÔÃû';
-$lang['ut_file'] = 'ÎÄ¼þÃû';
-$lang['ut_line'] = 'ÐÐºÅ';
-$lang['ut_passed'] = 'Í¨¹ý';
-$lang['ut_failed'] = 'Ê§°Ü';
+$lang['ut_test_name'] = 'æµ‹è¯•å';
+$lang['ut_test_datatype'] = 'æµ‹è¯•çš„æ•°æ®ç±»åž‹';
+$lang['ut_res_datatype'] = 'æœŸæœ›çš„æ•°æ®ç±»åž‹';
+$lang['ut_result'] = 'ç»“æžœ';
+$lang['ut_undefined'] = 'æœªå®šä¹‰çš„æµ‹è¯•å';
+$lang['ut_file'] = 'æ–‡ä»¶å';
+$lang['ut_line'] = 'è¡Œå·';
+$lang['ut_passed'] = 'é€šè¿‡';
+$lang['ut_failed'] = 'å¤±è´¥';
 $lang['ut_boolean'] = 'Boolean';
 $lang['ut_integer'] = 'Integer';
 $lang['ut_float'] = 'Float';
@@ -56,7 +27,4 @@ $lang['ut_array'] = 'Array';
 $lang['ut_object'] = 'Object';
 $lang['ut_resource'] = 'Resource';
 $lang['ut_null'] = 'Null';
-$lang['ut_notes'] = '±Ê¼Ç';
-
-/* End of file unit_test_lang.php */
-/* Location: ./application/language/simplified-chinese/unit_test_lang.php */
+$lang['ut_notes'] = 'ç¬”è®°';

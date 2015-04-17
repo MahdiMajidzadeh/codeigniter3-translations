@@ -1,51 +1,19 @@
 <?php
-
 /**
- * CodeIgniter
+ * System messages translation for CodeIgniter(tm)
  *
- * An open source application development framework for PHP
- *
- * This content is released under the MIT License (MIT)
- *
- * Copyright (c) 2014 - 2015, British Columbia Institute of Technology
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package	CodeIgniter
- * @author	EllisLab Dev Team
- * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
+ * @author	CodeIgniter community
  * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
- * @license	http://opensource.org/licenses/MIT MIT License
+ * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	http://codeigniter.com
- * @since	Version 1.0.0
- * @filesource
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['migration_none_found'] = '²»ÐèÇ¨ÒÆ¡£  ';
-$lang['migration_not_found'] = 'ÎÞ·¨¸ù¾Ý°æ±¾ºÅÕÒµ½Ç¨ÒÆ·½·¨£º %s¡£';
-$lang['migration_sequence_gap'] = '°æ±¾Ç¨ÒÆ´æÔÚºè¹µ£º%s¡£';
-$lang['migration_multiple_version'] = '¶à¸öÇ¨ÒÆ¶ÔÓ¦Í¬Ò»°æ±¾ºÅ£º%s¡£';
-$lang['migration_class_doesnt_exist'] = 'ÎÞ·¨ÕÒµ½Ç¨ÒÆÀà "%s"¡£';
-$lang['migration_missing_up_method'] = 'ÎÞ·¨ÕÒµ½Ç¨ÒÆÀà "%s" ÖÐµÄ "up" ·½·¨¡£';
-$lang['migration_missing_down_method'] = 'ÎÞ·¨ÕÒµ½Ç¨ÒÆÀà "%s" ÖÐµÄ " ·½·¨¡£';
-$lang['migration_invalid_filename'] = 'ÎÞÐ§µÄÇ¨ÒÆÎÄ¼þÃû£º"%s"¡£';
-
-/* End of file migration_lang.php */
-/* Location: ./application/language/simplified-chinese/migration_lang.php */
+$lang['migration_none_found'] = 'ä¸éœ€è¿ç§»ã€‚  ';
+$lang['migration_not_found'] = 'æ— æ³•æ ¹æ®ç‰ˆæœ¬å·æ‰¾åˆ°è¿ç§»æ–¹æ³•ï¼š %sã€‚';
+$lang['migration_sequence_gap'] = 'ç‰ˆæœ¬è¿ç§»å­˜åœ¨é¸¿æ²Ÿï¼š%sã€‚';
+$lang['migration_multiple_version'] = 'å¤šä¸ªè¿ç§»å¯¹åº”åŒä¸€ç‰ˆæœ¬å·ï¼š%sã€‚';
+$lang['migration_class_doesnt_exist'] = 'æ— æ³•æ‰¾åˆ°è¿ç§»ç±» "%s"ã€‚';
+$lang['migration_missing_up_method'] = 'æ— æ³•æ‰¾åˆ°è¿ç§»ç±» "%s" ä¸­çš„ "up" æ–¹æ³•ã€‚';
+$lang['migration_missing_down_method'] = 'æ— æ³•æ‰¾åˆ°è¿ç§»ç±» "%s" ä¸­çš„ " æ–¹æ³•ã€‚';
+$lang['migration_invalid_filename'] = 'æ— æ•ˆçš„è¿ç§»æ–‡ä»¶åï¼š"%s"ã€‚';

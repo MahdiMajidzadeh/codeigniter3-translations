@@ -1,39 +1,11 @@
 <?php
 /**
- * CodeIgniter
+ * System messages translation for CodeIgniter(tm)
  *
- * An open source application development framework for PHP
- *
- * This content is released under the MIT License (MIT)
- *
- * Copyright (c) 2014 - 2015, British Columbia Institute of Technology
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package	CodeIgniter
- * @author	EllisLab Dev Team
- * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
+ * @author	CodeIgniter community
  * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	http://codeigniter.com
- * @since	Version 1.0.0
- * @filesource
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
@@ -70,9 +42,9 @@ $lang['UM1']    = '(UTC -1:00) Azory, Ostrovy Cape Verde';
 $lang['UTC']    = '(UTC) Greenwichský poledník, Západoevropský Čas';
 $lang['UP1']    = '(UTC +1:00) Středoevropský Čas, Západoafrický Čas';
 $lang['UP2']    = '(UTC +2:00) Středoafrický Čas, Východoevropský Čas, Kaliningradský Čas';
-$lang['UP3']    = '(UTC +3:00) Východoafrický Čas, Arabský Standardní čas';
+$lang['UP3']    = '(UTC +3:00) Moskva, Východoafrický Čas, Arabský Standardní čas';
 $lang['UP35']   = '(UTC +3:30) Íránský Standardní čas';
-$lang['UP4']    = '(UTC +4:00) Moskva, Azerbaidžánský Standardní čas';
+$lang['UP4']    = '(UTC +4:00) Azerbaidžánský Standardní čas, Samarský čas';
 $lang['UP45']   = '(UTC +4:30) Afghánistán';
 $lang['UP5']    = '(UTC +5:00) Pákistánský Standardní čas, Yekaterinburgský Čas';
 $lang['UP55']   = '(UTC +5:30) Indický Standardní čas, Sri Lanka';
@@ -86,12 +58,9 @@ $lang['UP9']    = '(UTC +9:00) Japonský Standardní čas, Korejský Standardní
 $lang['UP95']   = '(UTC +9:30) Australian Central Standardní čas';
 $lang['UP10']   = '(UTC +10:00) Východoaustralský Standardní čas, Vladivostok';
 $lang['UP105']  = '(UTC +10:30) Ostrov lorda Howa';
-$lang['UP11']   = '(UTC +11:00) Magadanský Čas, Solomonovy Ostrovy, Vanuatu';
+$lang['UP11']   = '(UTC +11:00) Sredněkolymský Čas, Solomonovy Ostrovy, Vanuatu';
 $lang['UP115']  = '(UTC +11:30) Norfol (Ostrov)';
 $lang['UP12']   = '(UTC +12:00) Fiji, Gilbertovy Ostrovy, Kamčatský Čas, Novozélandský Standardní čas';
 $lang['UP1275'] = '(UTC +12:45) Chathamovy ostrovy';
 $lang['UP13']   = '(UTC +13:00) Samoa Časová Zóna, Fénixovy Ostrovy, Tonga';
 $lang['UP14']   = '(UTC +14:00) Liniové ostrovy';
-
-/* End of file date_lang.php */
-/* Location: ./application/language/czech/date_lang.php */
